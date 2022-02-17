@@ -1,13 +1,156 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+  margin: 0px;
+  padding: 0px;
+  display: grid;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#red-line{
+  margin: 0px;
+  height: 10px;
+  width: 100%;
+  background-color: #f14d54;
+}
+#tatvasoft-logo{
+  margin-left: 100px;
+  height: 100px;
+  width: 200px;
+}
+.devider{
+  color: rgb(65, 65, 65);
+}
+.first-header{
+  margin-top: -90px;
+  padding-bottom: 30px;
+  
+}
+.header-link{
+  font-size: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-cart{
+  margin-right: 80px;
+  height: 45px;
+  width: 110px;
+  background-color: white ;
+  border-radius: 5px;
+  border-color:rgb(167, 166, 166);
+  border-style:solid;
+  
+}
+.btn{
+  height: 40px;
+  width: 129px;
+  margin: 10px;
+  margin-top: 20px;
+}
+.navbar{
+  justify-content: center;
+  
+}
+.form-control{
+  width: 422px;
+  height: 40px;
+  margin-top: 20px;
+}
+.Home li {
+  padding-right: 0%;
+  margin-right: -30px;
+}
+.header-login-register{
+  font-size: 32px;
+  color: #414141;
+  margin-bottom: 25px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nc-list li {
+  margin-top: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #212121;
+}
+.nc-list :nth-child(1){
+  margin-top: 20px;
+}
+.nc-list li{
+  margin-left: -20px;
+}
+.Account-Create-btn{
+  background-color: #f14d54;
+  color: white;
+  font-weight: 500;
+  border-color: #f14d54;
+  margin-top: 140px;
+}
+[class^=heading]{
+  font-size: 25px;
+  color: #414141;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+}
+[class*=-btn]{
+  background-color: #f14d54;
+  color: white;
+  font-weight: 500;
+  border-color: #f14d54;
+  margin-top: 60px;
+}
+.footer{
+  margin-top: 80px;
+}
+.header-product{
+  font-size: 32px;
+  color: #414141;
+  margin-bottom: 25px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.edit-button{
+  width: 100px;
+  height: 40px;
+  background-color: white ;
+  border-radius: 4px;
+  border-color: #80bf32;
+  color: #80bf32;
+  border-style:solid;
+  float: right;
+}
+.edit-button:hover{
+  color: white;
+  background-color: #80bf32;
+}
+.delete-button{
+  width: 100px;
+  height: 40px;
+  background-color: white ;
+  border-radius: 4px;
+  border-color: #f14d54;
+  color: #f14d54;
+  border-style:solid;
+  float: right;
+  margin-left: 10px;
+}
+.delete-button:hover{
+  color: white;
+  background-color: #f14d54;
+}
+.footer-link{
+  border-radius: 50%;
+  margin: 15px;
+  padding: 15px;
+  text-decoration: none;
+  color: black;
+}
+.footer-link:hover{
+  background-color: #f14d54;
+  color: white;
+  font-weight: 500;
+}
+.next-page{
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+div.manu{
+  overflow: scroll;
 }
